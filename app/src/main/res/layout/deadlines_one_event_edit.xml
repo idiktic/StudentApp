@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_primary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:id="@+id/btn_deadlines_edit_event"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:text=""
+            android:layout_alignBaseline="@+id/tv_deadlines_event_note"
+            android:layout_alignBottom="@+id/tv_deadlines_event_note"
+            android:layout_toStartOf="@+id/btn_deadlines_delete_event" />
+
+        <Button
+            android:id="@+id/btn_deadlines_delete_event"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:text=""
+            android:background="@color/colorPrimary"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tv_deadlines_event_subject"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/tv_deadlines_event_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="56dp"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/tv_deadlines_event_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="134dp"
+            android:layout_marginTop="13dp"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/tv_deadlines_event_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="BLA" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

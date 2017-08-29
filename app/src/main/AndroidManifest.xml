@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ivan.studentapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".splashscreen.SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" />
+
+        <activity android:name=".mainscreen.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".todoscreen.toDoActivity" />
+
+        <activity android:name=".subjectsscreen.SubjectsActivity" />
+        <activity
+            android:name=".subjectsscreen.SubjectDetailActivity"
+            android:parentActivityName=".subjectsscreen.SubjectsActivity" />
+        <activity android:name=".subjectsscreen.SubjectEditActivity" />
+        <activity android:name=".subjectsscreen.SubjectNewActivity" />
+
+        <activity android:name=".deadlinesscreen.DeadlinesActivity" />
+        <activity android:name=".deadlinesscreen.DeadlinesFragmentsManagerActivity" />
+        <activity android:name=".deadlinesscreen.DeadlinesEvents" />
+        <activity android:name=".deadlinesscreen.DeadlinesSelectedDateEventsActivity" />
+        <activity android:name=".deadlinesscreen.EventDetailActivity" />
+
+    </application>
+
+
+</manifest>

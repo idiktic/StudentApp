@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_event"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/events_menu_addevent"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/all_events"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/events_menu_allevents"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/event_edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/events_menu_edit"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/event_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/events_menu_delete"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/event_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/events_menu_save"
+        app:showAsAction="always" />
+
+    <!--
+        <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_all_events"
+            android:orderInCategory="100"
+            android:title="all events"
+            app:showAsAction="never"/>-->
+
+
+</menu>

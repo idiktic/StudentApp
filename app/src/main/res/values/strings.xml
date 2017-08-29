@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- Subjects Screen -->
+    <string name="subjects_title">Subjects</string>
+    <string name="subjects_menu_new_event">Add Event</string>
+    <string name="subjects_menu_add">New Subject</string>
+    <string name="subjects_menu_edit">Edit</string>
+    <string name="subjects_menu_delete">Delete</string>
+    <string name="subjects_menu_save">Save</string>
+    <string name="subjects_list_empty">There are no subjects</string>
+    <!-- Subject Details Screen -->
+    <string name="subjects_details_title">Details</string>
+    <string name="subjects_details_menu_delete_dialog_title">Delete subject</string>
+    <string name="subjects_details_menu_delete_dialog_text">Are you sure you wannt to delete this subject?\nAll events connected with that subject will be erased too.</string>
+    <string name="subjects_details_menu_delete_dialog_buttonCancel">Cancel</string>
+    <string name="subjects_details_menu_delete_dialog_buttonYes">Yes</string>
+    <string name="subjects_details_menu_delete_dialog_deleted">Subject deleted</string>
+
+    <!-- Subjects Add & Edit Screens -->
+    <string name="subject_edit_title">Edit</string>
+    <string name="subject_add_title">Add new</string>
+    <string name="subject_name">Name:</string>
+    <string name="subject_abbreviation">Abbreviation:</string>
+    <string name="subject_professor">Professor:</string>
+    <string name="subject_color">Color:</string>
+    <string name="subject_classes">Classes number:</string>
+    <string name="subject_warning">Name and Abbreviation are necessary</string>
+
+
+    <!-- CALENDAR STRINGS START -->
+    <string name="action_settings">Settings</string>
+    <!-- CALENDAR STRINGS END -->
+
+
+    <!-- EVENTS START -->
+
+    <!--EVENTS TITLE START-->
+    <string name="events_main_title">Deadlines</string>
+    <string name="new_event_title">Create Event</string>
+    <string name="all_events_title">> All Events</string>
+    <string name="events_on_title">> Events on</string>
+    <string name="event_details_title">>> Event Details</string>
+    <!--EVENTS TITLE END-->
+
+    <!-- EVENTS MENU START-->
+    <string name="events_menu_addevent">Add Event</string>
+    <string name="events_menu_save">Save</string>
+    <string name="events_menu_edit">Edit</string>
+    <string name="events_menu_delete">Delete</string>
+    <string name="events_menu_allevents">See all events</string>
+    <!-- EVENTS MENU END-->
+
+
+    <!--EVENTS NEW START-->
+    <string name="new_event_subject">Subject:</string>
+    <string name="new_event_date">Date:</string>
+    <string name="new_event_type">Type:</string>
+    <string name="new_event_note">Note:</string>
+    <string-array name="event_types">
+        <item>Exam</item>
+        <item>Homework</item>
+        <item>Seminar</item>
+        <item>Other</item>
+    </string-array>
+    <string name="event_warning">Date is necessary</string>
+    <string name="event_create">Event successfully created!</string>
+    <string name="event_update">Event successfully updated!</string>
+    <!--EVENTS NEW END-->
+    <!-- EVENTS END -->
+
+
+</resources>

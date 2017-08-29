@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ivan.studentapp.subjectsscreen.SubjectViewFragment">
+
+    <include
+        android:id="@+id/includeEventsList"
+        layout="@layout/subject_events_list" />
+
+    <TextView
+        android:id="@+id/tv_detailAbbreviation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="PROBA"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_detailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="PROBA"
+        android:layout_alignTop="@id/tv_detailAbbreviation"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tv_detailProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="16dp"
+        android:text="Events:"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/tv_detailName"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
